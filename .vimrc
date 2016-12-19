@@ -5,7 +5,7 @@ let mapleader=" "
 syntax on
 set nocompatible
 
-" try how mouse works in tmux
+" activate mouse in all modes
 set mouse=a
 
 set number      " Show line numbers
