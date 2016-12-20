@@ -52,7 +52,10 @@ filetype plugin indent on
 
 nnoremap Q <nop>
 nnoremap <F1> <ESC>
+
 nnoremap col :set list!<CR>
+nnoremap cow :set wrap!<CR>
+
 nnoremap <C-s> :update<CR>
 nnoremap <C-Q> :q<CR>
 nnoremap QQ     :q<CR>
