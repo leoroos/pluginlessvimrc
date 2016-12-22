@@ -100,3 +100,5 @@ nnoremap <leader>cpf :!realpath % <bar> xsel -b <cr><cr>
 nnoremap <leader>vx :Vexplore<CR>
 nnoremap <leader>sx :Sexplore<CR>
 nnoremap <leader><leader>x :Explore<CR>
+
+set pastetoggle=<F2>
