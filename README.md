@@ -4,5 +4,5 @@ Standalone server configs for easy (single command) installation of a pragmatic 
 
 ## Installation
 
-wget https://raw.githubusercontent.com/leoroos/pluginlessvimrc/master/{.tmux.conf,.vimrc}
+    wget https://raw.githubusercontent.com/leoroos/pluginlessvimrc/master/{.tmux.conf,.vimrc}
 
