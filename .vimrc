@@ -55,6 +55,7 @@ nnoremap <F1> <ESC>
 
 nnoremap col :set list!<CR>
 nnoremap cow :set wrap!<CR>
+nnoremap con :set number!<CR>
 
 nnoremap <C-s> :update<CR>
 nnoremap <C-Q> :q<CR>
