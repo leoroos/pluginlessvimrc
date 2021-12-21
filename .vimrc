@@ -8,7 +8,7 @@ set nocompatible
 " activate mouse in all modes
 set mouse=a
 
-set number      " Show line numbers
+set relativenumber    " Show line numbers
 set nowrap      " Wrap lines
 set showcmd     " Show incomplete command
 set linebreak   " Break lines at word (requires Wrap lines)
@@ -16,6 +16,7 @@ set showbreak=+++       " Wrap-broken line prefix
 set textwidth=100       " Line wrap (number of cols)
 set showmatch   " Highlight matching brace
 set visualbell  " Use visual bell (no beeping)
+set belloff=all
 
 set hlsearch    " Highlight all search results
 set smartcase   " Enable smart-case search
@@ -53,9 +54,9 @@ filetype plugin indent on
 nnoremap Q <nop>
 nnoremap <F1> <ESC>
 
-nnoremap col :set list!<CR>
-nnoremap cow :set wrap!<CR>
-nnoremap con :set number!<CR>
+nnoremap yol :set list!<CR>
+nnoremap yow :set wrap!<CR>
+nnoremap yon :set number!<CR>
 
 nnoremap <C-s> :update<CR>
 nnoremap <C-Q> :q<CR>
